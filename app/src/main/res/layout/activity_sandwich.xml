@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".accountdetail">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FBF6F6"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/gg1" />
+
+            <com.google.android.material.navigation.NavigationView
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/menu"
+                        android:layout_width="74dp"
+                        android:layout_height="90dp"
+                        app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="307dp"
+                        android:layout_height="match_parent"
+                        android:foregroundGravity="center"
+                        app:srcCompat="@drawable/cggggggg" />
+
+                </LinearLayout>
+
+            </com.google.android.material.navigation.NavigationView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#0C0C0C" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/vs" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="83dp"
+                        android:layout_height="37dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="Rs.50"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="224dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="VEG SANDWICH"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/title"
+                    android:ems="10"
+                    android:fontFamily="@font/almendra"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text="Vegetarian sandwich consisting of a vegetable filling between bread."
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/cvcvcv"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#040303" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/qqww"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/ccs" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/llk"
+                        android:layout_width="83dp"
+                        android:layout_height="37dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="Rs.70"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/dery"
+                        android:layout_width="224dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="CHILLI CHEESE SANDWICH"
+                        android:textColor="#2B2323"
+                        android:textSize="19sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fdff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/title"
+                    android:ems="10"
+                    android:fontFamily="@font/almendra"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text="The sandwich is prepared with delicious cheese to satisfy your hunger pangs."
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/kj"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#040303" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/cccs" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/x"
+                        android:layout_width="83dp"
+                        android:layout_height="37dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="Rs.70"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/d"
+                        android:layout_width="224dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="CORN AND CHEESE"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/dd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/title"
+                    android:ems="10"
+                    android:fontFamily="@font/almendra"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text="Corn Cheese Sandwich is a delicious grilled sandwich made with boiled sweet corn, onion and grated cheese."
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/ww"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#040303" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/wqs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/pgs" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/lk"
+                        android:layout_width="83dp"
+                        android:layout_height="37dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="Rs.80"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/uy"
+                        android:layout_width="224dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="PANEER GRILLED SANDWICH"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/rty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/title"
+                    android:ems="10"
+                    android:fontFamily="@font/almendra"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text="Tasty sandwich made by placing paneer stuffing between the slices of bread and then grilling them."
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tyrty"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#040303" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/jm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/tcsss" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/yttt"
+                        android:layout_width="83dp"
+                        android:layout_height="37dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="Rs.120"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/mbm"
+                        android:layout_width="224dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="TANDOORI CHEESE(4 PIECE)"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/kitt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/title"
+                    android:ems="10"
+                    android:fontFamily="@font/almendra"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text="Tandoori veg sandwich is fantastic for people with meat restricted diets. Vegetarians and vegans both find this to be mouthwatering delicious."
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/uyuf"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#040303" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/vnbnd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/tps" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/udsx"
+                        android:layout_width="83dp"
+                        android:layout_height="37dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="Rs.150"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/bbv"
+                        android:layout_width="224dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="TANDOORI PANEER GRILLED(4 PIECE)"
+                        android:textColor="#2B2323"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/hn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/title"
+                    android:ems="10"
+                    android:fontFamily="@font/almendra"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text="Made with tandoori sauce and grilled paneer."
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/hngh"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#040303" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/sgh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/vcs" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/xcdd"
+                        android:layout_width="83dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="Rs.130"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/vlx"
+                        android:layout_width="203dp"
+                        android:layout_height="48dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="VEG CLUB SANDWICH"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/poo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/title"
+                    android:ems="10"
+                    android:fontFamily="@font/almendra"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text="Sandwich with a unique twist making it different from traditional club sandwiches! It has 3 layers of fresh, delicious fillings."
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#0C0C0C" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/wqwqw"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/cs" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/xcdksesrd"
+                        android:layout_width="83dp"
+                        android:layout_height="37dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="Rs.150"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/bzdffdg"
+                        android:layout_width="203dp"
+                        android:layout_height="72dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="CHICKEN SANDWICH(4 PIECE)"
+                        android:textColor="#2B2323"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/nbcvf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/title"
+                    android:ems="10"
+                    android:fontFamily="@font/almendra"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text="Sandwich consists of boneless, skinless chicken breast or thigh served between slices of bread, on a bun, or on a roll."
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#0C0C0C" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/fgdfgese"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/ccssssss" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/bfgsg"
+                        android:layout_width="83dp"
+                        android:layout_height="37dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="Rs.150"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/dhyk"
+                        android:layout_width="203dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="CHICKEN CLUB SANDWICH"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/gdgdfgdfg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/title"
+                    android:ems="10"
+                    android:fontFamily="@font/almendra"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text="The first layer is chicken mixed with mayonnaise, followed by a layer of lettuce, tomatoes and cucumber along with a thin omelet and cheese. Serve with French fries or wedges, and coleslaw."
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#0C0C0C" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/fgsdgsrg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/ebs" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/fdgdgdgdf"
+                        android:layout_width="83dp"
+                        android:layout_height="37dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="Rs.80"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/gdfgdfgdgsgx"
+                        android:layout_width="203dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="EGG BURJI SANDWICH"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/fbdfgdxgpoo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/title"
+                    android:ems="10"
+                    android:fontFamily="@font/almendra"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text=" Egg Bhurji Sandwich with a handful of ingredients like eggs, onion, tomato, capsicum, green chilli, coriander leaves and some spices. "
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/adamina</item>
+        <item>@font/almendra</item>
+        <item>@font/arbutus</item>
+        <item>@font/artifika</item>
+        <item>@font/asset</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/bubblegum_sans</item>
+        <item>@font/calistoga</item>
+        <item>@font/condiment</item>
+        <item>@font/eater</item>
+        <item>@font/fontdiner_swanky</item>
+        <item>@font/fredoka_one</item>
+        <item>@font/ultra</item>
+    </array>
+</resources>

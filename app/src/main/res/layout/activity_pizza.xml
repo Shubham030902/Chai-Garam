@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".accountdetail">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FBF6F6"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/gg1" />
+
+            <com.google.android.material.navigation.NavigationView
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/menu"
+                        android:layout_width="74dp"
+                        android:layout_height="90dp"
+                        app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="307dp"
+                        android:layout_height="match_parent"
+                        android:foregroundGravity="center"
+                        app:srcCompat="@drawable/cggggggg" />
+
+                </LinearLayout>
+
+            </com.google.android.material.navigation.NavigationView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#0C0C0C" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/mp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="224dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/textshadwo"
+                    android:fontFamily="@font/ultra"
+                    android:gravity="center"
+                    android:text="MARGARITA"
+                    android:textColor="#2B2323"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView18"
+                            android:layout_width="83dp"
+                            android:layout_height="37dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/title"
+                            android:fontFamily="@font/ultra"
+                            android:gravity="center"
+                            android:text="8&quot;"
+                            android:textColor="#2B2323"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView19"
+                            android:layout_width="83dp"
+                            android:layout_height="37dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/textshadwo"
+                            android:fontFamily="@font/ultra"
+                            android:gravity="center"
+                            android:text="Rs.120"
+                            android:textColor="#2B2323"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="83dp"
+                            android:layout_height="37dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/title"
+                            android:fontFamily="@font/ultra"
+                            android:gravity="center"
+                            android:text="12&quot;"
+                            android:textColor="#2B2323"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="83dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/textshadwo"
+                            android:fontFamily="@font/ultra"
+                            android:gravity="center"
+                            android:text="Rs.200"
+                            android:textColor="#2B2323"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:layout_marginStart="10dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/title"
+                    android:ems="10"
+                    android:fontFamily="@font/almendra"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text="Thin-crust Naples-style pizza topped with tomato sauce, fresh mozzarella, basil leaves, and Parmigiano-Reggiano. "
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#0C0C0C" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/dfgdg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/cp" />
+
+                <TextView
+                    android:id="@+id/fgfbfgfgd"
+                    android:layout_width="282dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/textshadwo"
+                    android:fontFamily="@font/ultra"
+                    android:gravity="center"
+                    android:text="CHEESE AND CORN"
+                    android:textColor="#2B2323"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textVdgbdzbgdfgiew18"
+                            android:layout_width="83dp"
+                            android:layout_height="37dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/title"
+                            android:fontFamily="@font/ultra"
+                            android:gravity="center"
+                            android:text="8&quot;"
+                            android:textColor="#2B2323"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tzfbfextfdgdfgView19"
+                            android:layout_width="83dp"
+                            android:layout_height="37dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/textshadwo"
+                            android:fontFamily="@font/ultra"
+                            android:gravity="center"
+                            android:text="Rs.120"
+                            android:textColor="#2B2323"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textdfgvxdvdfgView5"
+                            android:layout_width="83dp"
+                            android:layout_height="37dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/title"
+                            android:fontFamily="@font/ultra"
+                            android:gravity="center"
+                            android:text="12&quot;"
+                            android:textColor="#2B2323"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textVrgrgerigdgdgxvew17"
+                            android:layout_width="83dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/textshadwo"
+                            android:fontFamily="@font/ultra"
+                            android:gravity="center"
+                            android:text="Rs.200"
+                            android:textColor="#2B2323"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:layout_marginStart="10dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textViewvdbgnfgvdv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/title"
+                    android:ems="10"
+                    android:fontFamily="@font/almendra"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text="Thin curst pizza made with toppings of corn adn a layer of cheese."
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#0C0C0C" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageVivfhryjevxvw9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/fhp" />
+
+                <TextView
+                    android:id="@+id/textxerwgdbdcvxcvView"
+                    android:layout_width="224dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/textshadwo"
+                    android:fontFamily="@font/ultra"
+                    android:gravity="center"
+                    android:text="FARM HOUSE"
+                    android:textColor="#2B2323"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textxcvfbtgxvView18"
+                            android:layout_width="83dp"
+                            android:layout_height="37dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/title"
+                            android:fontFamily="@font/ultra"
+                            android:gravity="center"
+                            android:text="8&quot;"
+                            android:textColor="#2B2323"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tcvxcvxvdfbdfvcvextView19"
+                            android:layout_width="83dp"
+                            android:layout_height="37dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/textshadwo"
+                            android:fontFamily="@font/ultra"
+                            android:gravity="center"
+                            android:text="Rs.120"
+                            android:textColor="#2B2323"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textVicfnfgxvcxvxew5"
+                            android:layout_width="83dp"
+                            android:layout_height="37dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/title"
+                            android:fontFamily="@font/ultra"
+                            android:gravity="center"
+                            android:text="12&quot;"
+                            android:textColor="#2B2323"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textVcxvFecview17"
+                            android:layout_width="83dp"
+                            android:layout_height="37dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/textshadwo"
+                            android:fontFamily="@font/ultra"
+                            android:gravity="center"
+                            android:text="Rs.200"
+                            android:textColor="#2B2323"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:layout_marginStart="10dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textVddsdiegfbgfbfgbw6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/title"
+                    android:ems="10"
+                    android:fontFamily="@font/almendra"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:text="Thin crust pizza containing mushrooms, tomatoes, and capsicum as toppings. The pizza is smothered in a delicious sauce and sprinkled with a generous amount of cheese."
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#0C0C0C" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageVidsbzgbgdbcdscdsew9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/bbp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textVibfdbdfbew5"
+                        android:layout_width="83dp"
+                        android:layout_height="37dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="Rs.150"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textVifdbbew"
+                        android:layout_width="224dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/textshadwo"
+                        android:fontFamily="@font/ultra"
+                        android:gravity="center"
+                        android:text="BROWN BREAD PIZZA(4 pieces)"
+                        android:textColor="#2B2323"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/textVbthtrdbdzfbdbiew6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/title"
+                android:ems="10"
+                android:fontFamily="@font/almendra"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Pizza made with bread as a base with sane taste as a norml pizza."
+                android:textSize="20sp" />
+            </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>
